@@ -3,8 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Bridgecol
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -41,16 +40,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Back
-    uniqueID: 3458631577
-    locked: 0
-  - name: Object
-    uniqueID: 2972035725
-    locked: 0
-  - name: Char
-    uniqueID: 2717630135
-    locked: 0
-  - name: Font
-    uniqueID: 2515698843
     locked: 0
