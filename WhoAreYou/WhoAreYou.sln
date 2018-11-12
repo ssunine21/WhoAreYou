@@ -1,18 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhoAreYou", "WhoAreYou.csproj", "{2201A951-69A5-BFBD-91A0-B14820EEA48C}"
-EndProject
+# Visual Studio 15
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2201A951-69A5-BFBD-91A0-B14820EEA48C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2201A951-69A5-BFBD-91A0-B14820EEA48C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2201A951-69A5-BFBD-91A0-B14820EEA48C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2201A951-69A5-BFBD-91A0-B14820EEA48C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
