@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 15
-  productGUID: ed70fb53ac551c540b1aaa5051656c52
+  productGUID: daef64e70c352e64b9c2019552114bfc
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Whoareyou
+  productName: New Unity Project
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -617,8 +617,8 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 3c9c01e0-2a7a-4a1c-8095-e7957a3200e8
-  projectName: Whoareyou
+  cloudProjectId: 6827b413-2a75-4575-aa6c-f957e0202300
+  projectName: New Unity Project (4)
   organizationId: ssunine21_unity
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
