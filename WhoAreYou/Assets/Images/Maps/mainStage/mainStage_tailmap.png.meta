@@ -10,6 +10,8 @@ TextureImporter:
     21300010: mainStage_tailmap_5
     21300012: mainStage_tailmap_6
     21300014: mainStage_tailmap_7
+    21300016: mainStage_tailmap_8
+    21300018: mainStage_tailmap_9
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -111,13 +113,13 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a4c7ad411af4fe498acabe27c9bdd96
+      spriteID: eb72a9922b54efe4a8173491b5041bab
       vertices: []
       indices: 
       edges: []
@@ -131,13 +133,13 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d9bdaf73958f7541a35fab3953ab3cf
+      spriteID: 4fccec87a7e0dba4e83d7b9137cc76aa
       vertices: []
       indices: 
       edges: []
@@ -146,18 +148,18 @@ TextureImporter:
       name: mainStage_tailmap_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 384
+        x: 192
+        y: 448
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6212d85193f72df459d4fde283f8c351
+      spriteID: 168481fddefe41746842f73fc49bc104
       vertices: []
       indices: 
       edges: []
@@ -166,18 +168,18 @@ TextureImporter:
       name: mainStage_tailmap_3
       rect:
         serializedVersion: 2
-        x: 64
-        y: 384
+        x: 256
+        y: 448
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 820683aa84c8a1d4588fc6d0dd7d5912
+      spriteID: 34b6b0ce21d631a4e99d27d5bd539d54
       vertices: []
       indices: 
       edges: []
@@ -187,17 +189,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 320
+        y: 384
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c9c4a212a92a5542bc8cfe7b26627be
+      spriteID: a372c02c6f6035244adb8e78d9971c06
       vertices: []
       indices: 
       edges: []
@@ -207,17 +209,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 320
+        y: 384
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8e976acca3ce1149b7be9593bb73bd6
+      spriteID: ed096c9b9fb30bb48b3a5d14cecfec4d
       vertices: []
       indices: 
       edges: []
@@ -226,18 +228,18 @@ TextureImporter:
       name: mainStage_tailmap_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 256
+        x: 192
+        y: 384
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1117caa90fc2684ab416ae4d78d7093
+      spriteID: 3bce56232414b67459761859e8263375
       vertices: []
       indices: 
       edges: []
@@ -246,18 +248,58 @@ TextureImporter:
       name: mainStage_tailmap_7
       rect:
         serializedVersion: 2
-        x: 64
-        y: 256
+        x: 256
+        y: 384
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac594b77f866ad4478b23cc26cc8a7f6
+      spriteID: e86b2ba1958a0524aa6663843f2068f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainStage_tailmap_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3340cae65185447bedc508379dd642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainStage_tailmap_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0598f26d79e2d40488f3fb93d613696c
       vertices: []
       indices: 
       edges: []
