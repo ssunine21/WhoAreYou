@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\PlayerCtrl.cs" />
+    <Compile Include="Assets\Scripts\StairCollision.cs" />
     <None Include="Assets\Fonts\OFL.txt" />
     <Reference Include="Cinemachine">
       <HintPath>C:/Users/xcvbn/Desktop/whoareyou/whoareyou/whoareyou/Library/ScriptAssemblies/Cinemachine.dll</HintPath>

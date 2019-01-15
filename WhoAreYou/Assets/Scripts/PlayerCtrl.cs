@@ -15,6 +15,8 @@ public class PlayerCtrl : MonoBehaviour
 	private SpriteRenderer render;
 	private Rigidbody2D rigid;
 
+	private GameObject mark;
+
 	private readonly int hashMove = Animator.StringToHash("isMove");
 	private readonly int hashJump = Animator.StringToHash("isJump");
 	private readonly int hashdoJump = Animator.StringToHash("doJump");
@@ -27,15 +29,13 @@ public class PlayerCtrl : MonoBehaviour
 		animator = GetComponent<Animator>();
 		render = GetComponent<SpriteRenderer>();
 		rigid = GetComponent<Rigidbody2D>();
+		mark = transform.GetChild(0).gameObject;
     }
 
     // Update is called once per frame
     void Update()
     {
 		h = Input.GetAxisRaw("Horizontal");
-
-		Debug.Log("h = " + h.ToString());
-
     }
 
 	private void FixedUpdate() {
@@ -71,9 +71,26 @@ public class PlayerCtrl : MonoBehaviour
 	}
 
 	private void OnTriggerEnter2D( Collider2D other ) {
-		if(other.gameObject.layer == 8 && this.rigid.velocity.y < 0 ) {
+		if ( other.gameObject.layer == 8 && rigid.velocity.y <= 0 ) {
 			isJump = false;
 			animator.SetBool(hashJump, false);
 		}
+
+		else if ( FindObject(other) ) {
+			mark.SetActive(true);
+		}
+	}
+
+	private void OnTriggerExit2D( Collider2D other ) {
+		if ( FindObject(other) ) {
+			mark.SetActive(false);
+		}
+	}
+
+	private bool FindObject( Collider2D other ) {
+		if ( other.CompareTag("OBJECT") )
+			return true;
+
+		return false;
 	}
 }
